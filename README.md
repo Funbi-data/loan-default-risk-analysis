@@ -13,6 +13,7 @@
 ## Project Structure
 
 ## Live Demo
+https://drive.google.com/file/d/1WuCY8C8rPHNVOJKIH63J5TyWHYM0KjC2/view?usp=sharing
 
 Frontend:
 https://loan-default-risk-analysis-gwqrusrcpesetcebzg9csc.streamlit.app/
@@ -25,6 +26,14 @@ https://github.com/Funbi-data/loan-default-risk-analysis
 
 ## Screenshots
 
-(Add screenshots here)
+
+### Home Page
+
+![Home Page](images/homepage.png)
+
+### Prediction Result
+
+![Prediction Result](images/prediction_result.png)
+
 
 ## Future Improvements
