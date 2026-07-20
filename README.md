@@ -114,23 +114,10 @@ The preprocessing pipeline includes:
 
 The model was trained using Random Forest with SMOTE to address class imbalance. Since loan default prediction is an imbalanced classification problem, evaluation focused on precision, recall, and F1-score rather than accuracy alone.
 
-## Model Evaluation
-
-### Feature Importance
-
-![Feature Importance](images/feature_importance.png)
-
-### Confusion Matrix
-
-![Confusion Matrix](images/confusion_matrix.png)
-
-### ROC Curve
-
-![ROC Curve](images/roc_curve.png)
 
 ## 🌐 API
 
-Run the FastAPI backend:
+Run the FastAPI backend:git p
 
 ```bash
 uvicorn app:app --reload
