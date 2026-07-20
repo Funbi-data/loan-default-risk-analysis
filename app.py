@@ -3,9 +3,9 @@ from pydantic import BaseModel
 import pandas as pd
 import joblib
 
-model = joblib.load("loan_default_model.joblib")
+model = joblib.load("models/loan_default_model.joblib")
 
-label_encoders = joblib.load("label_encoders.joblib")
+label_encoders = joblib.load("models/label_encoders.joblib")
 
 app = FastAPI(
     title="Loan Default Prediction API"
@@ -15,7 +15,7 @@ class LoanInput(BaseModel):
     Age: int
     Income: float
     LoanAmount: float
-    CreditScore: int
+    CreditScore: intpython app.py
     MonthsEmployed: int
     NumCreditLines: int
     InterestRate: float
